@@ -1,5 +1,166 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Austin Ho's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            color: #333;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: -50px auto 50px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(50px);
+        }
+
+        .profile-image {
+            display: block;
+            margin: 0 auto 30px;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 8px solid #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: #34495e;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .info {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #555;
+            text-align: center;
+        }
+
+        .info p {
+            margin: 8px 0;
+        }
+
+        .info strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.1rem;
+            }
+
+            .container {
+                padding: 20px;
+                margin-top: 10px;
+            }
+
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .info p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Charles Austin Ho</h1>
+        <p>Student Portfolio</p>
+    </header>
+
+    <div class="container">
+        <img src="porty.jfif" alt="Charles Austin Ho" class="profile-image">
+
+        <h2>About Me</h2>
+        <div class="info">
+            <p><strong>Name:</strong> Charles Ho</p>
+            <p><strong>Age:</strong> 23</p>
+            <p><strong>School:</strong> Arellano University</p>
+            <p><strong>Objective:</strong> To study, learn, and make a meaningful impact through technology.</p>
+        </div>
+
+        <h2>Education</h2>
+        <div class="info">
+            <p><strong>Elementary Graduation:</strong> Saint Genevieve School of Pateros</p>
+            <p><strong>Senior High Graduation:</strong> STI College Global City</p>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+</html>
